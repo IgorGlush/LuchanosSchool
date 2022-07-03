@@ -37,3 +37,4 @@ def test_summ_min(a,b,c, expect):
 def test_err_summ_min(a,b,c,err):
     with pytest.raises(err):
         summ_min(a, b, c)
+
